@@ -8,6 +8,18 @@
 	padding: 10px 25px 10px 25px;
 }
 
+
 .section{
-	
+	width: 80%;
+	height: 600px;
+	border: solid 3px #000;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding: 50px 50px 50px 50px;
+}
+
+#keyword{
+	width: 15%;
+	height: 25px;
 }

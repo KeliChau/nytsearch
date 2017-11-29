@@ -14,7 +14,26 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12 section">
-			<button id="keyword">Search</button>
+			<form>
+			  <div class="form-group">
+			    <label for="search">Search Term</label>
+			    <input type="text" class="form-control" id="search">
+			  </div>
+			  <div class="form-group">
+			    <label for="records">Number of Records to Retrieve</label>
+			    <input type="text" class="form-control" id="records">
+			  </div>
+			  <div class="form-group">
+			  	<label for="start-year">Start Year (Optional)</label>
+			  	<input type="text" class="form-control" id="start-year">
+			  </div>
+			  <div class="form-group">
+			  	<label for="end-year">End Year (Optional)</label>
+			  	<input type="text" class="form-control" id="end-year">
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			  <button type="clear" class="btn btn-default">Clear</button>
+			</form>
 		</div>
 	</div>
 </body>

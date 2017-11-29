@@ -2,7 +2,7 @@
 	font-size: 300%;
 	background-color: #222;
 	color: #fff;
-	font-family: "Times New Roman", Georgia, arial, sans-serif;
+	font-family: "Bree Serif", "Times New Roman", Georgia, arial, sans-serif;
 	text-align: left;
 	height: 100px;
 	padding: 10px 25px 10px 25px;
@@ -11,18 +11,19 @@
 
 .section{
 	width: 60%;
-	height: 600px;
-	border: solid 3px #000;
+	height: 400px;
+	border: solid 5px #000;
 	text-align: center;
-	margin-left: 10%;
+	margin-left: 20%;
 	margin-top: 5%;
 	padding: 50px 50px 50px 50px;
+	font-family: Lato, Arial, Georgia, sans-serif;
 }
 
 #search-results{
-	border: solid 2px #000;
+	border: solid 5px #000;
 	width: 60%;
-	height: 400px;
-	margin-left: 10%;
+	height: 600px;
+	margin-left: 20%;
 	margin-top: 5%;
 }

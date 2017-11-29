@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NYT Search | Group Project</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/javascript.js"></script></head>
+	<title></title>
+</head>
 <body>
-	<div class="row">
-		<div class="col-md-12 title">
-			New York Times Search
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12 section">
-			<form>
-			  <div class="form-group">
-			    <label for="search">Search Term</label>
-			    <input type="text" class="form-control" id="search">
-			  </div>
-			  <div class="form-group">
-			    <label for="records">Number of Records to Retrieve</label>
-			    <input type="text" class="form-control" id="records">
-			  </div>
-			  <div class="form-group">
-			  	<label for="start-year">Start Year (Optional)</label>
-			  	<input type="text" class="form-control" id="start-year">
-			  </div>
-			  <div class="form-group">
-			  	<label for="end-year">End Year (Optional)</label>
-			  	<input type="text" class="form-control" id="end-year">
-			  </div>
-			  <button type="submit" class="btn btn-default">Submit</button>
-			  <button type="clear" class="btn btn-default">Clear</button>
-			</form>
-		</div>
-	</div>
-</body>
-</html>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+	$(".placeholder").on("click", function() {
+
+		var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json"; url += '?' + $.param({ 'api-key': "8db7e5f2f14e40afb811ff718ef5bd56"
+  });
+	
+  console.log(url);
+
+	$.ajax({
+  	url: url,
+  	method: 'GET',
+	}).done(function(result) {
+  
+  console.log(result);
+  
+	}).fail(function(err) {
+  	throw err;
+		});
+	});
+
+	$(document).ready(function(){
+		var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
+			url += '?' + $.param({
+  		'api-key': "8db7e5f2f14e40afb811ff718ef5bd56"
+		});
+		console.log(url);
+	})
+
+</script>

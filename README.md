@@ -1,7 +1,24 @@
 # New York Times Search
-New York Times Search Group Project by Juanita-Pinkney, Brian Peace, Corey Sullivan, John Liscar, Taly Huang, and Keli Chau for the Georgia Tech Coding Boot Camp
 
-## Project Information
-Create a search page where we will pull in content from New York Times by inserting a year, name, and/or keyword into the search bars.
+## Overview
+A New York Times Search application using New York Time's API, HTML, and CSS where users can input a title and year span to pull in articles from the New York Times.
+
+#### Assignment
+This application is a group assignment for [GA Tech's Coding Boot Camp](https://codingbootcamp.pe.gatech.edu/), Full-Time Fall 2017 Cohort. Members include: Juanita-Pinkney, Brian Peace, Corey Sullivan, John Liscar, Taly Huang, and Keli Chau.
+
+### How to Use New York Times Search
+
+### API(s)
+
+### Visuals
++ Screenshots
++ Video(s)
++ Link to Video(s)
++ GIFs
+
+## Acknowledgments
++ Bootstrap
+
+## Future Plans
 
 
